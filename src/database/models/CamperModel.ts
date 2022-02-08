@@ -1,6 +1,7 @@
 import { Document, model, Schema } from "mongoose";
 
 export interface CamperInt {
+  [x: string]: any;
   discordId: string;
   round: number;
   day: number;
